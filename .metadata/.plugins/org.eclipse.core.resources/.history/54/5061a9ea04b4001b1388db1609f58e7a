@@ -1,0 +1,7 @@
+
+public class Aircraft {
+	private String engine;
+	private String cockpit;
+	private String wings;
+	private String bathroom;
+}

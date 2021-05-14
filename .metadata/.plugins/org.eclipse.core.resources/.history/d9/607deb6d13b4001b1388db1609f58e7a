@@ -1,0 +1,14 @@
+
+public class Director {
+	
+	private AircraftBuilder aircraftBuilder;
+	
+	public Director(AircraftBuilder aircraftBuilder) {
+		this.aircraftBuilder=aircraftBuilder;
+	}
+	
+	public Aircraft buildAircraft()
+	{
+		return aircraftBuilder.getResult();
+	}
+}

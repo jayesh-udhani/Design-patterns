@@ -1,0 +1,5 @@
+//	Static block initialization
+
+public class StaticBlockSingleton {
+	private static 
+}

@@ -1,0 +1,16 @@
+
+
+public class BillPughSingleton {
+
+	public static class inner {
+		inner() {
+			System.out.println("Inner class constructor");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BillPughSingleton b=new BillPughSingleton();
+		System.out.println("ABC");
+		BillPughSingleton.inner i = new BillPughSingleton.inner();
+	}
+}

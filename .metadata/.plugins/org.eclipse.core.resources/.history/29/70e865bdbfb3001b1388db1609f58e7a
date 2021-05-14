@@ -1,0 +1,24 @@
+/* Bill Pugh Singleton implementation (Most commonly used production code)
+When BillPughSingleton class is loaded in memory, SingletonHelper is not loaded.
+Only when someone calls getInstance method, this class gets loaded and creates the singleton object
+*/
+public class BillPughSingleton {
+	private BillPughSingleton() {
+		System.out.println("Hey");
+	}
+	
+	private static class SingletonHelper {
+		public static BillPughSingleton instance = new BillPughSingleton();
+	}
+	
+	public static BillPughSingleton getInstance() {
+		SingletonHelper.instance = new BillPughSingleton();
+		return SingletonHelper.instance;
+	}
+	
+	public static void main(String[] args)
+	{
+		BillPughSingleton b1=BillPughSingleton.getInstance();
+		BillPughSingleton b2=BillPughSingleton.getInstance();
+	}
+}

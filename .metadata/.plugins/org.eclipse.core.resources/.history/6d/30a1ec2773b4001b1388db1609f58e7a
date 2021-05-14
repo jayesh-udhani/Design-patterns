@@ -1,0 +1,10 @@
+
+public abstract class Aircraft {
+	
+	public abstract void setEngine(String engine);
+	
+	public abstract void setWings(String wings);
+	
+	public abstract void setCockpit(String cockpit);
+	
+}

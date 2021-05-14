@@ -1,0 +1,24 @@
+
+public class F16Builder extends AircraftBuilder {
+
+	F16 f16;
+	@Override
+	public void buildEngine() {
+		// TODO Auto-generated method stub
+		boeing747.setEngine("Buidling engine of Boeing 747");
+	}
+
+	@Override
+	public void buildWings() {
+		// TODO Auto-generated method stub
+		boeing747.setWings("Building wings of Boeing 747");
+	}
+
+	@Override
+	public void buildCockpit() {
+		// TODO Auto-generated method stub
+		boeing747.setCockpit("Building cockpit of Boeing 747");
+	}
+	
+
+}

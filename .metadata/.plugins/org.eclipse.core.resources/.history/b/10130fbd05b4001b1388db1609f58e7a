@@ -1,0 +1,47 @@
+
+public class Boeing747 extends Aircraft {
+
+	private String engine;
+	private String wings;
+	private String cockpit;
+	private String bathrooms;
+	
+	public String getEngine() {
+		return this.engine;
+	}
+	
+	@Override
+	public void setEngine(String engine) {
+		// TODO Auto-generated method stub
+		this.engine=engine;
+	}
+
+	public String getWings() {
+		return this.wings;
+	}
+	
+	@Override
+	public void setWings(String wings) {
+		// TODO Auto-generated method stub
+		this.wings=wings;
+	}
+
+	public String getCockpit() {
+		return this.cockpit;
+	}
+	
+	@Override
+	public void setCockpit(String cockpit) {
+		// TODO Auto-generated method stub
+		this.cockpit=cockpit;
+	}
+	
+	public String getBathroom() {
+		return this.engine;
+	}
+	
+	public void setBathroom(String bathrooms) {
+		this.bathrooms=bathrooms;
+	}
+	
+}

@@ -1,0 +1,12 @@
+
+public class Aircraft {
+	
+	public void setEngine(String engine) {}
+	
+	public void setWings(String wings) {}
+	
+	public void setCockpit(String cockpit) {}
+	
+	public void setBathrooms(String bathrooms) {}
+	
+}

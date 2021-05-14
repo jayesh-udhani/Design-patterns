@@ -1,0 +1,21 @@
+
+public abstract class AircraftBuilder {
+	private Aircraft airplane;
+	public void buildEngine() {
+		
+	}
+	
+	public void buildWings() {
+		
+	}
+	
+	public void buildCockpit() {
+		
+	}
+	
+	public void buildBathrooms() {
+		
+	}
+	
+	public abstract Aircraft getResult();
+}

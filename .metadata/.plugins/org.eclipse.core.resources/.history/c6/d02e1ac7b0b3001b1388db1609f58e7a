@@ -1,0 +1,5 @@
+// Thread safe singleton class using synchronized keyword
+
+public class ThreadSafeSingleton {
+
+}
