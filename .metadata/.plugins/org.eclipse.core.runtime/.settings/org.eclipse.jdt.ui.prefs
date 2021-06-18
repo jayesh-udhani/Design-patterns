@@ -1,11 +1,12 @@
-content_assist_number_of_computers=24
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="EagerSingleton"><rhs name\="EagerSingleton"/></lhs><lhs name\="StaticBlockSingleton"><rhs name\="StaticBlockSingleton"/></lhs><lhs name\="ThreadSafeSingleton"><rhs name\="ThreadSafeSingleton"/></lhs><lhs name\="DoubleCheckedLocking"><rhs name\="DoubleCheckedLocking"/></lhs><lhs name\="BillPughSingleton"><rhs name\="BillPughSingleton"/></lhs><lhs name\="BillPughSingleton$inner"><rhs name\="BillPughSingleton$inner"/></lhs><lhs name\="Director"><rhs name\="Director"/></lhs><lhs name\="AircraftBuilder"><rhs name\="Boeing747Builder"/></lhs><lhs name\="Aircraft"><rhs name\="Boeing747"/><rhs name\="F16"/></lhs><lhs name\="Boeing747"><rhs name\="Boeing747"/></lhs><lhs name\="F16"><rhs name\="F16"/></lhs><lhs name\="ISort"><rhs name\="MergeSort"/><rhs name\="QuickSort"/></lhs><lhs name\="MergeSort"><rhs name\="MergeSort"/></lhs><lhs name\="Context"><rhs name\="Context"/></lhs><lhs name\="EnemyShip"><rhs name\="UFOEnemyShip"/><rhs name\="RocketEnemyShip"/><rhs name\="BigUFOEnemyShip"/></lhs><lhs name\="EnemyShipFactory"><rhs name\="EnemyShipFactory"/></lhs></history>
+content_assist_number_of_computers=20
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
 fontPropagated=true
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.ui.editor.tab.width=
-org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.formatterprofiles.version=21
 org.eclipse.jdt.ui.javadoclocations.migrated=true
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
